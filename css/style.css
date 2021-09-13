@@ -3,8 +3,11 @@ body {
   font-family: cursive !important;
   background-color:#ffffff;
 }
+.heading{
+  margin-bottom: -30px;
+  font-family:fantasy;
+}
 .search-field {
-  
   border: none;
   border-radius: 10px;
   padding: 5px;
@@ -29,7 +32,7 @@ body {
   font-size :700px;;
   padding: 50px 50px;
   border-radius: 10px;
-  margin-left: 23px;
+  margin-left: 18px;
 }
 #all-products {
   display: grid;
@@ -51,7 +54,7 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
-  background-color: rgb(176, 176, 192);
+  background-color: rgb(227, 227, 235);
 }
 .product-image {
   width: 150px;
