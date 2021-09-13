@@ -1,10 +1,11 @@
 body {
   overflow-x: hidden;
   font-family: cursive !important;
-  background-color:#ffffff;
+  background-color: rgb(227, 227, 235) !important;
 }
 .heading{
   margin-bottom: -30px;
+  margin-left: 60px;
   font-family:fantasy;
 }
 .search-field {
@@ -20,19 +21,19 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 300px;
-  border-radius: 5px;
+  width: 210px;
+  border-radius: 5px 0 0;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
+  /* border-right: none; */
   display: flex;
 }
 .search-button {
   color: #fff;
   font-size :700px;;
   padding: 50px 50px;
-  border-radius: 10px;
-  margin-left: 18px;
+  border-radius:0 10px 10px;
+  margin-left: 1px;
 }
 #all-products {
   display: grid;
